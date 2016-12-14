@@ -1,0 +1,13 @@
+{
+    "name": "vendor/in-class-o-o-p-demos",
+    "description": "Description of project InClassOOPDemos.",
+    "authors": [
+        {
+            "name": "mwilliams",
+            "email": "mwilliams@oultoncollege.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "v5.2.16"
+    }
+}
