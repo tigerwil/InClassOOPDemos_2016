@@ -17,8 +17,8 @@
          echo '<h2>Articles</h2>
                <div class="alert alert-danger"><strong>Members Only</strong>
                <p>You must be logged in as a registered user to view
-                  this content! <br><a href="/InclassOOPDemos/login.php">Login</a> | 
-                                <a href="/InclassOOPDemos/register.php">Register</a>
+                  this content! <br><a href="/InClassOOPDemos_2016/login.php">Login</a> | 
+                                <a href="/InClassOOPDemos_2016/register.php">Register</a>
                </p>
                </div>';
     }else if ($_SESSION['user_not_expired']){

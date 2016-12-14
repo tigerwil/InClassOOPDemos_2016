@@ -45,7 +45,7 @@ if (  isset($_GET['id']) && is_numeric($_GET['id'])    ){
                 
                 //Add list items for each record 
                 $list.="<li><span class='glyphicon glyphicon-link'></span>
-                            <a href='/InClassOOPDemos/article.php?id=$id'>$title</a>                    
+                            <a href='/InClassOOPDemos_2016/article.php?id=$id'>$title</a>                    
                             <p>$description</p>
                         </li>";
             }

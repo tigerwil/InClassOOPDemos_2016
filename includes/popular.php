@@ -20,7 +20,7 @@ if($data['error'] ==false){
        echo '<div class="col-6 col-sm-6 col-lg-4">';
        echo "<h4>$title</h4>";
        echo "<p>$description<p>";
-       echo "<p><a class=\"btn btn-warning\" href=\"/InClassOOPDemos/article.php?id=$id\" role=\"button\">Read more &raquo;</a></p>";
+       echo "<p><a class=\"btn btn-warning\" href=\"/InClassOOPDemos_2016/article.php?id=$id\" role=\"button\">Read more &raquo;</a></p>";
        
        echo '</div>';
     }

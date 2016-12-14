@@ -11,7 +11,7 @@ if($data['error']==false){
         $category = $item['category'];
         $total = $item['total'];
         
-        echo "<li><a href='/InClassOOPDemos/articlecategory.php?id=$catId'>$category <span class='badge pull-right'>$total</span></a></li>";
+        echo "<li><a href='/InClassOOPDemos_2016/articlecategory.php?id=$catId'>$category <span class='badge pull-right'>$total</span></a></li>";
     }
 }
 

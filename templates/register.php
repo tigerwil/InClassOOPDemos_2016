@@ -70,7 +70,7 @@
                     
                     //===================== NEW STUFF ========================//
                     //1.  Prepare to send email
-                    $siteURL = "http://localhost:8888/InClassOOPDemos/activate.php?x=".urlencode($email)."&y=$active";
+                    $siteURL = "http://localhost:8888/InClassOOPDemos_2016/activate.php?x=".urlencode($email)."&y=$active";
                     $replyToEmail = 'knowledge@programming.oultoncollege.com';
                     $replyToName = 'Knowledge Is Power';
                     $mailSubject = 'Knowledge Is Power Registration';                       

@@ -46,7 +46,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/InClassOOPDemos/index.php">PHP OOP Demo</a>
+                    <a class="navbar-brand" href="/InClassOOPDemos_2016/index.php">PHP OOP Demo</a>
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
@@ -59,9 +59,9 @@
                         //to allow us to dynamically set the active menu item based on 
                         //the current page user is on 
                         $pages = array(
-                            'Home' => '/InClassOOPDemos/index.php',
-                            'About' => '/InClassOOPDemos/about.php',
-                            'Contact' => '/InClassOOPDemos/contact.php'
+                            'Home' => '/InClassOOPDemos_2016/index.php',
+                            'About' => '/InClassOOPDemos_2016/about.php',
+                            'Contact' => '/InClassOOPDemos_2016/contact.php'
                         );
                         //Find out which page user is viewing
                         $this_page = $_SERVER['REQUEST_URI'];
@@ -77,7 +77,7 @@
                         ?>
                         <li class="dropdown "> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Articles <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="/InClassOOPDemos/articles.php">All Articles <span class='glyphicon glyphicon-list pull-right'></span></a>
+                                <li><a href="/InClassOOPDemos_2016/articles.php">All Articles <span class='glyphicon glyphicon-list pull-right'></span></a>
                                     <?php include 'includes/menu.php' ?>                                
                             </ul>
                         </li>                     
@@ -88,8 +88,8 @@
                             if(empty($_SESSION['user_id']) ){
                                 //NON-AUTHENTICATED USER 
                             ?>
-                                <li><a href="/InClassOOPDemos/register.php">Register <span class='glyphicon glyphicon-user'></span></a></li>
-                                <li><a href="/InClassOOPDemos/login.php">Login <span class='glyphicon glyphicon-log-in'></span></a></li>                              
+                                <li><a href="/InClassOOPDemos_2016/register.php">Register <span class='glyphicon glyphicon-user'></span></a></li>
+                                <li><a href="/InClassOOPDemos_2016/login.php">Login <span class='glyphicon glyphicon-log-in'></span></a></li>                              
                           
                             <?php
                                 } else{                          
@@ -97,7 +97,7 @@
                                 //REGISTERED USER IS LOGGED IN 
                             ?>
                                 <li><a href="#">My Account <span class='glyphicon glyphicon-user'></span></a></li>
-                                <li><a href="/InClassOOPDemos/logout.php">Logout <span class='glyphicon glyphicon-log-out'></span></a></li>                              
+                                <li><a href="/InClassOOPDemos_2016/logout.php">Logout <span class='glyphicon glyphicon-log-out'></span></a></li>                              
                             <?php
                                 }
                          ?>
@@ -105,7 +105,7 @@
                         </li>
                     </ul>
                     <!-- Search Form:  note edit css to view search icon-->
-                    <form method="get" action="/InClassOOPDemos/search.php" class="navbar-form navbar-right">
+                    <form method="get" action="/InClassOOPDemos_2016/search.php" class="navbar-form navbar-right">
                         <div class="right-inner-addon">
                             <i class="glyphicon glyphicon-search"></i> 
                             <input class="form-control" type="text" placeholder="Search..." id="s" name="s" />
